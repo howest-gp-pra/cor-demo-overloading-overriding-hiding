@@ -1,0 +1,17 @@
+﻿<Window x:Class="Demo.Overloading.Overriding.Hiding.WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Demo.Overloading.Overriding.Hiding.WPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBlock x:Name="tbkInfo" HorizontalAlignment="Left" Height="399" Margin="343,10,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="439"/>
+        <Button x:Name="btnGEW" Content="Gewone overerving" HorizontalAlignment="Left" Height="59" Margin="17,24,0,0" VerticalAlignment="Top" Width="220" Click="btnGEW_Click"/>
+        <Button x:Name="btnHiding" Content="Overerving en hiding" HorizontalAlignment="Left" Height="59" Margin="17,109,0,0" VerticalAlignment="Top" Width="220" Click="btnHiding_Click"/>
+        <Button x:Name="btnOverridingV1" Content="Overerving en overriding v1" HorizontalAlignment="Left" Height="59" Margin="17,191,0,0" VerticalAlignment="Top" Width="220" Click="btnOverridingV1_Click"/>
+        <Button x:Name="btnOverridingV2" Content="Overerving en overriding v2" HorizontalAlignment="Left" Height="59" Margin="17,275,0,0" VerticalAlignment="Top" Width="220" Click="btnOverridingV2_Click"/>
+
+    </Grid>
+</Window>

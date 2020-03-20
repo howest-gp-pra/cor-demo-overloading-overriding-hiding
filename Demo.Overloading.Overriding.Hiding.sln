@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29905.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.Overloading.Overriding.Hiding.WPF", "Demo.Overloading.Overriding.Hiding.WPF\Demo.Overloading.Overriding.Hiding.WPF.csproj", "{CC59B0A8-A3EA-43E2-87D4-ED9CFD37BE2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.Overloading.Overriding.Hiding.LIB", "Demo.Overloading.Overriding.Hiding.LIB\Demo.Overloading.Overriding.Hiding.LIB.csproj", "{57706E2B-321C-4A29-AC3F-D9600C35196D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC59B0A8-A3EA-43E2-87D4-ED9CFD37BE2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC59B0A8-A3EA-43E2-87D4-ED9CFD37BE2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC59B0A8-A3EA-43E2-87D4-ED9CFD37BE2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC59B0A8-A3EA-43E2-87D4-ED9CFD37BE2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57706E2B-321C-4A29-AC3F-D9600C35196D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57706E2B-321C-4A29-AC3F-D9600C35196D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57706E2B-321C-4A29-AC3F-D9600C35196D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57706E2B-321C-4A29-AC3F-D9600C35196D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA9971A0-9555-4DC7-8749-65C0BD2A0D6E}
+	EndGlobalSection
+EndGlobal
